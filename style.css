@@ -1,0 +1,100 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background-color: #f2f4f7;
+  color: #1a1a1a;
+}
+
+/* Cabeçalho */
+.topo {
+  background-color: #1d3557;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #457b9d;
+  padding: 10px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background-color: #1d3557;
+}
+
+/* Seções */
+.bloco {
+  max-width: 900px;
+  background: #fff;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.bloco img {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+/* Links */
+a {
+  color: #1d3557;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Formulário */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #457b9d;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #1d3557;
+}
+
+/* Rodapé */
+.rodape {
+  background-color: #1d3557;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  margin-top: 30px;
+}
